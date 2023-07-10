@@ -1,0 +1,109 @@
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.hr {
+  width: 99%;
+  margin: 0;
+}
+
+.tools {
+  margin: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.icon {
+  margin-top: 0;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.right {
+  display: grid;
+  margin-right: 1rem;
+  align-items: center;
+  justify-items: end;
+}
+
+.a {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  align-items: center;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.off {
+  height: 44px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 660px) {
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 875px) {
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+  }
+}
+
+@media screen and (min-width: 875px) and (max-width: 1300px) {
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+  }
+}
+
+@media screen and (min-width: 1301px) {
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(6, 16.6%);
+  }
+}

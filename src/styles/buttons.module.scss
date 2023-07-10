@@ -1,0 +1,18 @@
+// Button.module.css
+.button {
+  display: flex;
+  border-radius: 0.2rem;
+  border: solid 0.1rem;
+  border-color: rgba(176, 245, 233, 0.9);
+  background-color: rgba(176, 245, 233, 0);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgba(176, 245, 233, 0.3);
+}

@@ -1,0 +1,43 @@
+//Layout buttons in windows primary
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  gap: 0.3rem;
+}
+
+.nav {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(238, 245, 252, 0.7);
+  padding: 0.5rem;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+
+.folderPage {
+  display: grid;
+  grid-row: 2 / 3;
+  align-items: end;
+  top: 0;
+  margin: 0.5rem;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 916px) {
+  .page {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+  .folderPage {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+ }
