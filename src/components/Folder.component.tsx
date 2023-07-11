@@ -6,7 +6,7 @@ const FolderComponent = () => {
   return (
     <div>
       <div className={style.x}>
-        <Link href="/" className={style.buttonx}>
+        <Link href="/" className={style.buttonx} aria-label="Close the window">
           <svg
             className={style.svgexit}
             height="15"

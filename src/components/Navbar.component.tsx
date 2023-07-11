@@ -88,6 +88,7 @@ const NavbarComponent = () => {
         <input
           type="checkbox"
           id="translate"
+          aria-label="translate"
           className={styles.offscreen}
           checked={inputChecked}
           onChange={() => setInputChecked(!inputChecked)}
