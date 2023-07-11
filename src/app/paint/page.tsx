@@ -1,15 +1,7 @@
-import CanvasComponent from '../../components/Canvas.component';
-import FolderComponent from '../../components/Folder.component';
-import style from '../../styles/folders.module.scss'
+import dynamic from 'next/dynamic';
 
-const PagePaint = () => {
+const DynamicPagePaint = dynamic(() => import('../../components//PagePaint.component'));
 
-  return (
-    <div className={style.folder}>
-      <FolderComponent />
-      <CanvasComponent />
-    </div>
-  );
-};
-
-export default PagePaint;
+export default function About() {
+  return <DynamicPagePaint />;
+}
