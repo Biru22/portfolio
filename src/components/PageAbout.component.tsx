@@ -34,7 +34,7 @@ const PageAbout = () => {
           </a>
           <a
             className={styles.cv}
-            href="https://www.linkedin.com/in/mauricio-exequiel-miranda-gomez-629037270/"
+            href="https://drive.google.com/file/d/1F8STIWqFOzPAKLJV2DwsBoMA0uAZmynZ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
