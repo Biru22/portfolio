@@ -2,6 +2,7 @@ import './globals.scss'
 import { Ubuntu } from 'next/font/google'
 import Layout from '../components/Layout.component'
 import React, { ReactNode } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 const ubuntu = Ubuntu({
   weight: ['400'],
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Layout>
             {children}
           </Layout>
+          <Analytics />
       </body>
     </html>
   )
