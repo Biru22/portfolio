@@ -60,7 +60,7 @@ const PageProjects = () => {
         <div>
           <a
             className={styles.a}
-            href="https://web-psicopedagogia.firebaseapp.com/"
+            href="https://camino-de-aprendizaje.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
